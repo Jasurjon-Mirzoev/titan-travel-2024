@@ -1,0 +1,988 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="LOGO TITAN TRAVEL.PNG" type="image/png">
+  <title>Titan  Travel</title>
+
+  <!-- font awesome cdn link -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" 
+  
+  
+  href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+
+<body>
+  
+
+
+
+  <!--header section starts-->
+
+  <header>
+    <br>
+    <div id="menu-bar" class="fa fa-bars">
+      <br>
+    </div>
+    <br>
+    <img src="LOGO TITAN TRAVEL.PNG" id="logotitan" alt="">
+    <br>
+    <img src="titanvilla3.png" id="logotitan" alt="">
+    <br>
+    <nav class="navbar">
+      <a href="#about">About</a>
+        <a href="#home">Home</a>
+        <a href="#packages">Pacages</a>
+        <a href="#book">Book</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <br>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <a href="register.php "><i class="fas fa-user" id="login-btn"></i></a>
+        <i class="fa-solid fa-globe" id="language-btn"></i>
+      </div>
+  
+      <form id="searh-form" action="" class="search-bar-container">
+        <input type="text" id= "search-bar"  placeholder="Searh....." >
+        <label for="search" class="fas fa-search"></label>
+      </form> 
+  
+      
+      <div class="language" id="language">
+        <div class="language-Bar">
+          [<a href="index.html" >English  </a>]
+          
+          [<a href="indo.html">Indonesian</a>]
+          <label for="language-bar" class="fas fa-search"></label>
+        </div>
+  
+      </div> 
+  </header>
+
+  <div class="nav">
+    <div class="logo">
+        <p><a href="home.php">Titan</a> </p>
+    </div>
+
+    <div class="right-links">
+
+        <!-- <?php 
+        
+        $id = $_SESSION['id'];
+        $query = mysqli_query($con,"SELECT*FROM users WHERE Id=$id");
+
+        while($result = mysqli_fetch_assoc($query)){
+            $res_Uname = $result['Username'];
+            $res_Email = $result['Email'];
+            $res_Age = $result['Age'];
+            $res_id = $result['Id'];
+        }
+        
+        echo "<a href='edit.php?Id=$res_id'>Change Profile</a>";
+        ?> -->
+
+        <a href="index.html"> <button class="btn">Home</button> </a>
+
+    </div>
+</div>
+
+
+  <!--header section ends-->
+  
+
+  <!--login form container-->
+
+  <div class="login-form-container">
+    <i class="fa-solid fa-x" id="form-close"></i>
+    
+    <div class="form-box login">
+      <div class="inter">
+        <form action="#">
+          <h3>login</h3>
+          <input type="email" class="box" placeholder="email">
+          <input type="password" class="box" placeholder="password">
+          <input tsype="submit" value="Login Now " class="btn">
+          <input type="checkbox" id="remember">
+          <label for="remember">remember me</label>
+          <p>forget password?<a href="">click here</a></p>
+          <p>don't have an account?<a href="#" class="register-link">register now</a></p>
+        </form>
+      </div>
+
+    </div> 
+
+    <div class="form-box register">
+      <div class="inter">
+        <form action="#">
+          <h3>Register</h3>
+          <input type="email" class="box" placeholder="email">
+          <input type="email" class="box" placeholder="email">
+          <input type="password" class="box" placeholder="password">
+          
+          <input type="checkbox" id="remember">
+          <label for="remember">Agree</label>
+          <!-- <p>forget password?<a href="">click here</a></p> -->
+          <input type="submit" value="Register " class="btn">
+          <p>Already have an account?<a href="#" class="login-link">Login Now</a></p>
+        </form>
+      </div> 
+
+    </div>
+    
+    
+
+    
+
+    
+    
+  
+  
+      
+    
+  </div> 
+    
+   <!--register section -->
+   
+
+
+
+   
+   <!--register section -->
+
+  <!--home section starts -->
+  
+  <section class="home" id="home">
+
+    <div class="controls">
+      <span class="vid-btn active" data-src="Turkey1.mp4"></span>
+      <span class="vid-btn" data-src="video2.mp4"></span>
+      <span class="vid-btn" data-src="video3.mp4"></span>
+      <span class="vid-btn" data-src="video4.mov"></span>
+    </div> 
+
+    <div class="video-container">
+      <video src="Turkey1.mp4" id="video-slider" loop autoplay></video>
+    </div>
+
+
+    <div class="content">
+    <h3>titan makes your dreams true</h3>
+    <p>discover new places with Titan Travel</p>
+    <a href="video.html" class="btn">More Videos</a>
+    </div>
+  
+    
+  </section> 
+
+  <!--home section finishs -->
+
+
+
+ 
+
+   <!--package section starts-->
+
+
+
+
+
+   <section class="packages" id="packages">
+    <h1 class="heading">
+      <span>p</span>
+      <span>a</span>
+
+      <span>c</span> 
+      <span>k</span>
+      <span>a</span>
+      <span>g</span>
+      <span>e</span>
+      <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="sing.jpg" alt="">
+        <div class=" content">
+          <h3><i class="fa fa-map-marker"></i>Turkey</h3>
+          <p>lets explore  the most developed country in Southeast Asia</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">Rp4.000.000,00 <span>Rp5.500.000,00</span></div>
+          
+          <div class="like">
+            <a href="#book" class="btn">book now</a>
+            <a href="Turkey.html" class="btn">See More</a>
+          </div>
+
+
+
+          <div class="veiw-like">
+            <div class="view-section">
+
+              <div class="icon" id="viewIcon">👁️</div>
+              <div class="icon view-count" id="viewCount" >15</div>
+            
+            </div>
+            <div class="like-section">
+              <div><span id="like-icon" class="heart"> &#10084;</span></div>
+              <div><span id="like-count">0</span></div>
+            </div>
+          </div>
+
+
+
+
+      
+        </div>
+    
+      </div>
+
+      <div class="box">
+        <img src="thai.jpg" alt="">
+        <div class=" content">
+          <h3><i class="fa fa-map-marker"></i>  Thailand</h3>
+          <p>lets explore  the most developed country in Southeast Asia</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>  
+          </div>
+          <div class="price">Rp4.000.000,00 <span>Rp5.500.000,00</span></div>
+          <a href="#book" class="btn">book now</a>
+
+
+          <div class="veiw-like">
+            <div class="view-section">
+
+              <div class="icon" id="viewIcon">👁️</div>
+              <div class="icon view-count" id="viewCount" >10</div>
+            
+            </div>
+            <div class="like-section">
+              <div><span id="like-icon1" class="heart"> &#10084;</span></div>
+              <div><span id="like-count1">20</span></div>
+            </div>
+          </div>
+        
+        </div>
+
+        
+      
+      </div>
+
+      <div class="box">
+        <img src="malay.jpg" alt="">
+        <div class=" content">
+          <h3><i class="fa fa-map-marker"></i>  Malaysia</h3>
+          <p>lets explore  the most developed country in Southeast Asia</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">Rp4.000.000,00 <span>Rp5.500.000,00</span></div>
+          <a href="#book" class="btn">book now</a>
+
+
+          <div class="veiw-like">
+            <div class="view-section">
+
+              <div class="icon" id="viewIcon">👁️</div>
+              <div class="icon view-count" id="viewCount" >10</div>
+            
+            </div>
+            <div class="like-section">
+              <div><span id="like-icon2" class="heart"> &#10084;</span></div>
+              <div><span id="like-count2">20</span></div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="bali.jpg" alt="">
+        <div class=" content">
+          <h3><i class="fa fa-map-marker"></i>  Bali</h3>
+          <p>lets explore  the most developed country in Southeast Asia</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">Rp4.000.000,00 <span>Rp5.500.000,00</span></div>
+          <a href="#book" class="btn">book now</a>
+
+          <div class="veiw-like">
+            <div class="view-section">
+
+              <div class="icon" id="viewIcon">👁️</div>
+              <div class="icon view-count" id="viewCount" >9</div>
+            
+            </div>
+            <div class="like-section">
+              <div><span id="like-icon3" class="heart"><i class="fa-regular fa-heart"></i></span></div>
+              <div><span id="like-count3">11</span></div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="bromo.jpg" alt="">
+        <div class=" content">
+          <h3><i class="fa fa-map-marker"></i>  Bromo</h3>
+          <p>lets explore  the most developed country in Southeast Asia</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">Rp4.000.000,00 <span>Rp5.500.000,00</span></div>
+          <a href="" class="btn">book now</a>
+        </div>
+      </div>
+
+
+      <div class="box">
+        <img src="keri.jpg" alt="">
+        <div class=" content">
+          <h3><i class="fa fa-map-marker"></i> Karimunjawa</h3>
+          <p>lets explore  the most developed country in Southeast Asia</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">Rp4.000.000,00 <span>Rp5.500.000,00</span></div>
+          <a href="karimunjawa.html" class="btn">book now</a>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <!--package section ends-->
+
+
+     <!--book section starts-->
+
+  <section class="book" id="book">
+    <h1 class="heading">
+      <span>b</span>
+      <span>o</span>
+      <span>o</span> 
+      <span>k</span>
+      <span class="space"></span>
+      <span>n</span>
+      <span>o</span>
+      <span>w</span>
+    </h1>
+    <div class="row">
+      <div class="image">
+        <img src="https://img.freepik.com/free-vector/happy-girls-group-travel-holiday-theme-with-backpack_1308-98543.jpg?w=740&t=st=1696658513~exp=1696659113~hmac=1631627551929aea0edee7e719ccacaa6078f7011e4b08a5285e4c8170d2de3a" alt="">
+      </div>
+      <form action="mail.php" method="post">
+        <div class="inputBox">
+          <h3>Your name:</h3>
+          <input type="text" name="name"  id="name" placeholder="Enter your name.....">
+        </div>
+        <div class="inputBox">
+          <h3>Email:</h3>
+          <input  class="email" name="email" type="email" id="email" placeholder="Email " required>
+        </div>
+        <div class="inputBox">
+          <h3>Whatsapp number:</h3>
+          <input type="number" name="whatsapp"  id="whatsapp" placeholder="whatsapp number ">
+        </div>
+        <div class="inputBox">
+          <h3>Where do you want to go?</h3>
+          <input type="text" name="place"  id="place" placeholder="name of place...." required>
+        </div>
+        <div class="inputBox">
+          <h3>How many people?</h3>
+          <input type="number" name="howmany"  id="howmany" placeholder="enter the total of participant ">
+        </div>
+        <div class="inputBox">
+          <h3>Departure date:</h3>
+          <input type="datetime-local"  name="howlong" id="howlong" >
+        </div>
+
+        <div class="inputBox">
+          <h3>Return date:</h3>
+          <input type="datetime-local" name="date" id="date"  >
+        </div>
+        <input type="submit"   class="btn" value="book now">
+        
+      </form>
+    </div>
+  </section>
+
+  <!--book section ends-->
+
+
+
+
+
+
+    <!--service section startss-->
+
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span> 
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fa-solid fa-hotel"></i>
+          <h1>Affordable hotels and villas</h1>
+          <p>Luxury stays within reach. Explore our affordable hotels and villas for an unforgettable experience Luxury stays within reach. Explore our affordable hotels and villas for an unforgettable experience</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-utensils"></i>
+          <h1>food and drinks</h1>
+          <p>Luxury stays within reach. Explore our affordable hotels and villas for an unforgettable experience</p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-bullhorn"></i>
+          <h1>safty quide</h1>
+          <p>Your safety is our main priority.We are consist of domestic and international quides  and the the international quides will be helpful for all of you as translate of english language. </p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-earth-americas"></i>
+          <h1>around the world</h1>
+          <p>Luxury stays within reach. Explore our affordable hotels and villas for an unforgettable experience</p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-plane"></i>
+          <h1>Fastest Travel</h1>
+          <p>Domestic flights and international flights around Asia are becoming increasingly cheaper and more frequent with Titan Travel. We provide yuo the fastest and the most confortable transportation.</p>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-person-hiking"></i>
+          <h1>Adventure</h1>
+          <p>Luxury stays within reach. Explore our affordable hotels and villas for an unforgettable experience</p>
+        </div>
+
+
+          
+      </div>
+    </section>
+
+<!--service section ends-->
+
+
+
+
+<!-- galery section starts-->
+
+
+<section class="gallery" id="gallery">
+  <h1 class="heading">
+    <span>g</span>
+    <span>a</span>
+    <span>l</span> 
+    <span>l</span>
+    <span>e</span>
+    <span>r</span>
+    <span>y</span>
+    <span>s</span>
+  </h1>
+  <div class="box-container">
+    <div class="box">
+      <img src="image1.jpg" alt="">
+      <div class="content">
+        <h3>Turkey</h3>
+      <p>"Journey through Turkey's timeless landscapes and ancient wonders, where East and West converge in a harmonious dance of culture.Just get expearence of history, hospitality, and breathtaking beauty of Euro-Asian country." 🌴✨ </p>
+      <a href="Turkey.html" class="btn">See More</a>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="Malaysia0.jpg" alt="">
+      <div class="content">
+        <h3> Singapore+Malaysia</h3>
+      <p>"Embark on a dual odyssey through the bustling metropolis of Singapore, where innovation meets tradition, and the diverse landscapes of Malaysia, where rich history and natural beauty unfold at every turn. 🌴✨ </p>
+      <a href="singapore-Malaysia-Thailand.html" class="btn">see more</a>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="image1.jpg" alt="">
+      <div class="content">
+        <h3>Thailand</h3>
+      <p>"Discover the enchanting tapestry of tradition and modernity in the Land of Smiles, where vibrant cultures, stunning landscapes, and warm hospitality create unforgettable moments. 🌴✨ </p>
+      <a href="thailand.html" class="btn">see more</a>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="bali.jpg" alt="">
+      <div class="content">
+        <h3> Bali </h3>
+      <p>"Discover the soul-stirring beauty of Bali, where lush rice terraces, pristine beaches, and ancient temples weave a tapestry of serenity and adventure. Embrace the magic of Bali . 🌴🌅
+        🌴✨ </p>
+      <a href="Bali.html" class="btn">see more</a>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="image1.jpg" alt="">
+      <div class="content">
+        <h3>Yogyakarta</h3>
+      <p>"Yogyakarta, where the past gracefully embraces the present. From the mystical allure of Borobudur to the artistic pulse of Malioboro Street, every step unfolds a chapter of Javanese elegance. Embark on a journey that transcends time. 🌴✨ </p>
+      <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="image1.jpg" alt="">
+      <div class="content">
+        <h3>Lampung</h3>
+      <p>"A coastal haven where endless beaches meet lush landscapes, inviting you to explore the untamed beauty of Lampung's hidden gem. 🌴✨ </p>
+      <a href="Lampung.html" class="btn">see more</a>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="image1.jpg" alt="">
+      <div class="content">
+        <h3>amazing place</h3>
+      <p>"Explore the stunning archipelago of Indonesia: where adventure meets paradise. 🌴✨ </p>
+      <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="image1.jpg" alt="">
+      <div class="content">
+        <h3>amazing place</h3>
+      <p>"Explore the stunning archipelago of Indonesia: where adventure meets paradise. 🌴✨ </p>
+      <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="image1.jpg" alt="">
+      <div class="content">
+        <h3>amazing place</h3>
+      <p>"Explore the stunning archipelago of Indonesia: where adventure meets paradise. 🌴✨ </p>
+      <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+  </div>
+</section> 
+<!--galery section ends11-->
+
+
+
+
+<!--reveiw section starts-->
+
+
+<section class="review" id="review">
+  <h1 class="heading">
+    <span>r</span>
+    <span>e</span>
+    <span>v</span> 
+    <span>i</span>
+    <span>e</span>
+    <span>w</span>
+  </h1>
+  <div class="swiper mySwiper review-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        
+        <div class="box">
+          <img src="tian.jpg" alt="">
+          <h3>Tiyan Setiawan </h3>
+          <h1>CEO</h1>
+          <div class="social">
+          <a href="#"><span class="fab fa-facebook-f"></span></a>
+          <a href="#"><span class="fab fa-instagram"></span></a>
+          <a href="#"><span class="fab fa-whatsapp"></span></a>
+        </div> 
+          <p>kdfeuh e heqhqeph rhpqhfpeqhpeqhfpe hpiehqqepqpihqpihpqfhpfhefoirhqrhigqrhphrh pqhrogphgrrrgrig rgleqklierekqksfhdfsfeeireqo</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        
+        <div class="box">
+          <img src="handa.jpg" alt="">
+          <h3>Handa Wijaya </h3>
+          <h1>COO</h1>
+          <div class="social">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-instagram"></span></a>
+            <a href="#"><span class="fab fa-whatsapp"></span></a>
+          </div> 
+          <p>kdfeuhef heqhqephrhp qhfpeqhpeqhfpehpiehqqepqpihqpihpqfhpfhefoirhqrhigqrhphrh pqhrogphgrr rgrigrgleqklierekqksfhdfsfeeireqo</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        
+        <div class="box">
+          <img src="faisal.jpg" alt="">
+          <h3>Faisal Rusdy</h3>
+          <h1>CREW</h1>
+          <div class="social">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-instagram"></span></a>
+            <a href="#"><span class="fab fa-whatsapp"></span></a>
+          </div> 
+          <p>kdfeuhef heqhqephrhp qhfpeqhpeqhfpehpiehqqepqpihqpihpqfhpfhefoirhqrhigqrhphrh pqhrogphgrr rgrigrgleqklierekqksfhdfsfeeireqo</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        
+        <div class="box">
+          <img src="putra.jpg  " alt="">
+          <h3>Wisnu Saputra</h3>
+          <h1>CREW</h1>
+          <div class="social">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-instagram"></span></a>
+            <a href="#"><span class="fab fa-whatsapp"></span></a>
+          </div> 
+          <p>kdfeuhef heqhqephrh pqhfpeqhpe qhfpehpieh qqepqpihqpihpqfhpfhefoirhqrhigqrhph rhpqhrogphg rrrgrigrgl eqklierekqksfhdfsfeeireqo</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        
+        <div class="box">
+          <img src="" alt="">
+          <h3>Behzod Jabborov</h3>
+          <h1>International</h1>
+          <h1>CREW</h1>
+          <div class="social">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-instagram"></span></a>
+            <a href="#"><span class="fab fa-whatsapp"></span></a>
+          </div> 
+          <p>kdfeuhef heqhqephrhp qhfpeqhpeqhfpehpiehqqepqpihqpihpqfhpfhefoirhqrhigqrhphrh pqhrogphgrr rgrigrgleqklierekqksfhdfsfeeireqo</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        
+        <div class="box">
+          <img src="" alt="">
+          <h3>??????????</h3>
+          <h1>CREW</h1>
+          <div class="social">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-instagram"></span></a>
+            <a href="#"><span class="fab fa-whatsapp"></span></a>
+          </div> 
+          <p>kdfeuhef heqhqephrhp qhfpeqhpeqhfpehpiehqqepqpihqpihpqfhpfhefoirhqrhigqrhphrh pqhrogphgrr rgrigrgleqklierekqksfhdfsfeeireqo</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </section>
+  <!--galery section end-->
+
+
+  <!--++contact section starts-->
+  <!-- <section class="contact">
+
+  <h1 class="heading">
+    <span>C</span>
+    <span>o</span>
+    <span>n</span> 
+    <span>t</span>
+    <span>a</span>
+    <span>c</span>
+    <span>t</span>
+  </h1>
+  <div class="row">
+
+    <div class="image">
+      <img src="contactuss.jpg" alt="">
+    </div>
+
+    <form action="">
+      <div class="inputBox">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="Number">
+        <input type="text" placeholder="Subject">
+      </div>
+      <textarea placeholder="Message" name="" id=""  id="" cols="30" rows="10"></textarea>
+      <input type="submit" class="btn" value="send your message">
+
+    </form>
+  </div>
+ </section>  -->
+
+ <!--reveiw section end-->
+
+
+ 
+ <!--footer section starts-->
+
+ 
+  <div class="main-content" id="contact">
+    <div class="left box">
+      <h2>About TITAN</h2>
+      <div class="content">
+        <p>Established in 2016, after 8 years of establishment and development,, Titan Travel is one of the best tour operators in Indonesia and always ranked at the TOP of the best travel agencies in Palembang and the whole South Sumatra. With 15 years of operation, Titan Travel has been getting close to the mission of making more and more trips to go abroud, to have cultural exchanges  </p>
+        <div class="social">
+          <a href="#"><span class="fab fa-facebook-f"></span></a>
+          <a href="#"><span class="fab fa-instagram"></span></a>
+          <a href="#"><span class="fab fa-whatsapp"></span></a>
+        </div> 
+      </div>
+    </div> 
+    
+    <div class="center box">
+      <h2>Address</h2>
+      <div class="content">
+        <div class="place">
+          <span class="fas fa-map-marker"></span>
+          <span class="text">ll.Musi Raya No.42,Sialang ,sako,Suka Maju Kec.Sako ,Kota Palembang Sumatera Selatan 30161</span>
+        </div>
+
+        <div class="phone">
+          <span class="fas fa-phone-alt"></span>
+          <span class="text">+62 852-6884-4491</span>
+        </div>
+
+        <div class="email">
+          <span class="fas fa-envelope"></span>
+          <span class="text"> titantravel@gmail.com</span>
+        </div>
+        <div class="social">
+          <a href="https://maps.app.goo.gl/hpW5WizHwmxR5BEAA"><span class="fa-solid fa-location-dot"></span></a>
+          <a href="https://wa.me/qr/BZ3Z3BYY3AG6H1"><span class="fa-solid fa-phone"></span></a>
+          <a href="jasurjonmirzoev1@gmail.com"><span class="fa-solid fa-envelope"></span></a>
+          
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="right box">
+      <h2>Contact us</h2>
+      <div class="content">
+        <form action="message.php" method="POST">
+          
+          
+          <input type="email" name="email" class="box" placeholder="enter you email"  id="email" name="Email Anda">
+          </div>
+  
+          <div class="message" >
+            <textarea name="message" cols="40" rows="10" placeholder="write down your message" class="message"></textarea>
+          </div>
+          <div class="btn">Send</div>
+        </form>
+      </div>
+    </div>
+    <div class="locatio box">
+      <div class="a">
+        <a href="Turkey.html">Turkey</a>
+        <a href="singapore-Malaysia-Thailand.html">Singapore</a>
+        <a href="singapore-Malaysia-Thailand.html">Malaysia</a>
+      </div>
+      <div class="b">
+        <a href="thailand.html">Thailand</a>
+        <a href="bali.html">Bali</a>
+        <a href="Lampung.html">Lampung</a>
+      </div>
+      <div class="ca">
+        <a href="Yogyakarta.html">Yogyakarta</a>
+        <a href="Bangka.html">Bangka</a>
+        <a href="">Bromo</a>
+      </div>
+      
+    </div>
+
+    <div class="footer">
+      <div class="copy">
+        <p>&copy; Copy by titan travel 2023</p>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+
+
+
+    
+  
+  
+  
+
+
+
+ <!--footer section end-->
+
+
+
+
+ <div class="fabs" onclick="toggleBtn()">
+    <div class="action">
+      
+      <i class="fas fa-plus" id="add"></i>
+      <i class="fas fa-times" id="remove" style="display: none"></i>
+    </div>
+
+    <div class="btns">
+      <a href="#" class="btn1" style="background: #3b5999"
+        ><i class="fab fa-facebook"></i></a>
+      <a href="#" class="btn1" style="background: #55acee"
+        ><i class="fa-brands fa-telegram"></i></a> 
+      <a href="#" class="btn1" style="background: #25D366"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+      <button>
+        <a href="https://www.instagram.com/jasur.mirzoev.75/" class="btn1" style="background:#e4405f"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      </button>
+      <!-- <button>
+        <a href="" class="btn1" style="background: #111;"
+        ><i class="fa-x"></i
+      ></a>
+      </button> -->
+    </div>
+  </div>
+  
+
+
+  <script>
+    function toggleBtn() {
+      const Btns = document.querySelector(".btns");
+      const add = document.getElementById("add");
+      const remove = document.getElementById("remove");
+      const btn = document.querySelector(".btns").querySelectorAll("a");
+      Btns.classList.toggle("open");
+      if (Btns.classList.contains("open")) {
+        remove.style.display = "block";
+        add.style.display = "none";
+        btn.forEach((e, i) => {
+          setTimeout(() => {
+            bottom = 40 * i;
+            e.style.bottom = bottom + "px";
+            console.log(e);
+          }, 100 * i);
+        });
+      } else {
+        add.style.display = "block";
+        remove.style.display = "none";
+        btn.forEach((e, i) => {
+          e.style.bottom = "0px";
+        });
+      }
+    }
+  </script>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+
+
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
